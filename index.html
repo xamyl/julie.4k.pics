@@ -9,8 +9,15 @@
 <body>
     <header>
         <h1>julie.4k.pics</h1>
-    </header>
-    <main class="gallery" id="photoGallery">
+    </header>    <main class="photo-viewer" id="photoViewer">
+        <div class="photo-container">
+            <img id="currentPhoto" alt="julie">
+        </div>        <div class="navigation">
+            <button id="prevPhoto">Previous</button>
+            <span id="photoCounter"></span>
+            <button id="nextPhoto">Next</button>
+            <a id="fullImageLink" href="#" target="_blank" class="view-full">View Full Image</a>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
